@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,400;0,900;1,800;1,900&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+position: sticky;
+top: 0;
+left: 0;
+z-index: 100;
+box-shadow: 10px 10px 20px rgb(0,0,0,.5);
+background-color: black;
+
+}
+
+.navbar .navbar-brand{
+    font-style: italic;
+    font-weight: 600;
+    font-size:40px;
+    color: rgb(3, 83, 50);
+}
+#navbarSupportedContent a{
+      color: rgb(4, 75, 70);
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 3px solid green;
+}
+#navbarSupportedContent button{
+    background-color: rgb(6, 83, 58);
+    color: aliceblue;
+    width: 100px;
+    border-radius: 15px;
+}
+#navbarSupportedContent button:hover{
+    background-color: rgb(79, 42, 165);
+}   
+.land{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    
+}
+section h1{
+    color: rgb(208, 212, 209);
+    font-size: 100px;
+    letter-spacing: 2px;
+}
+section button{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+section button:hover{
+    background-color: rgb(4, 71, 49);
+    color: antiquewhite;
+}
+section h2{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 50px;
+}
+section p{
+    text-align: center;
+}
+.card{
+    
+    margin:10px 10px 10px;
+    padding: 10px 20px 10px;
+}
+.card-img-top{
+    height: 200px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 98px;
+    color: ;
+    margin: 100px 50px;
+}
+
+.back{
+    margin:100px 10px;
+}
+ .box{
+    transition: 1s;
+    border-radius: 50px;
+    outline: none;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.icon{
+    padding: 10px 10px 10px 10px;
+    margin: 0 10px;
+}
+.fa-solid {
+    padding-left: 10px;
+    transition: 1s;
+    font-size: 20px;
+}
+.fa-brands{
+    padding-left: 10px;
+    transition: 1s;
+    font-size: 20px;
+}
+.fa-solid:hover{
+    transform: scale(1.2);
+    background-color: rgb(2, 54, 37);
+    color: aliceblue;
+    border-radius: 30px;
+}
+.fa-brands:hover{
+    transform: scale(1.2);
+    background-color: rgb(5, 63, 44);
+    color: aliceblue;
+    border-radius: 30px;
+}
+.details{
+    margin-top: 50px;
+}
+.emojis{
+    text-align: center;
+    margin-top: 50px;
+}
